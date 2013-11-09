@@ -1,0 +1,27 @@
+CS 229 Final Project Gameplan
+
+1. Get images
+2. Do simple color classification
+	a. Decompose image into RGB array-ish thingy
+	b. Code up algorithm
+	c. Run and get ice cream to celebrate
+	d. Assess path forward
+3. Do simple height classification
+	a. Shoe "height"
+		i. Flat (ergo, no height), Below Ankle, Above Ankle, Supertall
+4. Other feature ideas
+	a. Laces
+		i. Might need to use top view
+		ii. Laces, or lack thereof!
+	b. Shoe "style"
+		i. Sneakers, Boots, Sandals, Heels, Slippers
+		ii. Might be derivative from shoe height
+	c. Brand
+		i. Identify?
+	d. Bottom texture
+		i. Texture or lack thereof
+
+QUICK HIT NOTES
+1. Language: Python
+2. Key v1 features: color, height, and laces
+3. Avoid white shoes
