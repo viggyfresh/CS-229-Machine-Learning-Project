@@ -38,7 +38,7 @@ def parse_product_page(text):
 
 def save_img(url, i):
    	resp = requests.get(url)
-   	fout = open(str(product_names[i]) + ".jpg", "wb")
+   	fout = open(str(i) + "-" + str(product_names[i]) + ".jpg", "wb")
    	fout.write(resp.content)
    	fout.close()
 
